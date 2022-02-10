@@ -1,0 +1,65 @@
+    console.log("Connect");
+
+var a=5,b=6;
+if(a+b<11)
+{
+console.log("less than 11");
+}
+else if(a+b>11){
+console.log("more than 11");
+}
+else{
+console.log("equal")}
+
+ OUTPUT:- equal
+
+
+
+
+var day="sunday";
+switch(day)
+{
+case "monday":
+console.log("Today is Monday");
+break;
+
+case "tuesday":
+console.log("Today is Tuesday");
+break;
+
+case "Wednesday":
+console.log("Today is Wednesday");
+break;
+
+case "Thursday":
+console.log("Today is Thursday");
+break;
+
+    case "Friday":
+console.log("Today is Friday");
+break;
+
+    case "Saturday":
+console.log("Today is Saturday");
+break;
+
+    case "Sunday":
+console.log("Today is Sunday");
+break;
+
+default:
+console.log("Default");
+}
+
+//Today is Saturday
+
+for(var i=0;i<5;i++)
+console.log("current value of i:"+i);
+
+//current value of i:0
+//VM121:2 current value of i:1
+//VM121:2 current value of i:2
+//VM121:2 current value of i:3
+//VM121:2 current value of i:4
+
+
